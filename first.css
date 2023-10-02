@@ -1,0 +1,146 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and font for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    background-image: url("img/hero-background.jpg");
+    color: #333;
+}
+
+/* Navigation bar styles */
+nav {
+    background-color: #333;
+    color: #2d8da8;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    padding: 50px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: white
+}
+
+header h2 {
+    font-size: 1.5rem;
+    color: #888;
+}
+
+header img {
+    max-width: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/* Main content container */
+section {
+    background-color: #e5e2e4;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* About Me Section */
+#about {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex; /* Use flexbox to arrange items */
+    justify-content: space-between; /* Space items evenly */
+    align-items: center; /* Center items vertically */
+}
+
+.about-content {
+    display: flex;
+    flex-direction: row-reverse; /* Reverse the order of items */
+    align-items: center; /* Center items vertically */
+}
+
+.about-text {
+    flex: 1; /* Take up available space */
+    text-align: left;
+    padding-right: 20px; /* Add some spacing between text and image */
+}
+
+/* Projects Section */
+#projects ul {
+    list-style: none;
+}
+
+#projects li {
+    margin: 20px 0;
+}
+
+#projects h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+/* Experience Section */
+#experience ul {
+    list-style: none;
+}
+
+#experience li {
+    margin: 20px 0;
+}
+
+#experience h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header h2 {
+        font-size: 1.25rem;
+    }
+
+    header img {
+        max-width: 150px;
+    }
+
+    section {
+        margin: 10px;
+    }
+}
